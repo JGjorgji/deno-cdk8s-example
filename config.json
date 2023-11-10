@@ -1,0 +1,13 @@
+{
+    "name": "myapp",
+    "command": "flask run",
+    "port": 5000,
+    "roleArn": "my-example-aws-role-arn",
+    "env": "development",
+    "hostname": "myapp.example.com",
+    "argoProject": "product-a",
+    "serviceInfo": {
+      "department": "product",
+      "slackChannel": "product-talk"
+    }
+}
